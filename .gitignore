@@ -1,0 +1,47 @@
+# Build directories
+/build/
+/build-*/
+/tests/build/
+/cmake-build-*/
+/_build/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+*.cmake.stamp
+
+# Install prefix for downstream consumer tests
+/install/
+/install-*/
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# Compiled binaries / objects
+*.obj
+*.exe
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+*.pch
+*.o
+*.a
+*.so
+
+# Test / scratch output
+/tmp/
+/scratch/
+/logs/
+*.log
+*.tmp
+*.swp
